@@ -1,0 +1,63 @@
+body {
+    background: lightblue;
+    font-family: 'Yatra One', cursive;
+
+}
+h1,h2,h3,h4,h5,h6{
+    color: indianred;
+
+}
+.navbar {
+    background-color: lightsalmon;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    text-transform: lowercase;
+    color: indianred;
+}
+.nav-link:hover {
+    text-decoration: underline dotted;
+    color: indianred;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E %3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 1em;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: indianred;
+
+}
+
+.navbar-brand{
+    font-size: 2em;
+    color: indianred;
+
+}
+.page-container {
+    margin-top: 50px;
+}
+
+.hallCard {
+    background-color: white;
+}
+
+.halls {
+    margin-left: 200px;
+}
+
+.hallRight {
+    margin-left: 100px;
+
+}
+
+.hallLeft {
+    margin-left: 80px;
+}
+
+.modal-body {
+    color: indianred;
+}

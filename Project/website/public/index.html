@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Yatra+One&display=swap" rel="stylesheet">
+  <title>Opiod Overdoses</title>
+</head>
+
+<body>
+
+  <!-- Title -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="file:///C:/Users/shahnv/Documents/School%20Files/Y2/Q2/Databases/Project/DressToImpress/index.html">Opioid Overdoses</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+
+  <!-- Container for all the questions-->
+      <div id="main-page" class="container page-container">
+        <div class=" jumbotron p-4 p-md-5 text-white rounded bg-dark">
+            <div class="col-md-10 px-0">
+                <h1 class="display-4 font-italic font-weight-bold">Are you at risk of overdosing?</h1>
+                <p class="lead my-3"><b>Enter the info below!</b></p>
+            </div>
+
+            <!-- Start of Class Buttons -->
+            <form>
+                <div class="form-group">
+                    <label for="age" class="display-20 font-italic">Age Range: </label>
+                    <select class="form-control" id="age">
+                        <option id = '0-24'>0 - 24</option>
+                        <option>25 - 34</option>
+                        <option>35 - 44</option>
+                        <option>45 - 54</option>
+                        <option>55+</option>
+                    </select>
+                    <label for="race" class="display-20 font-italic">Race: </label>
+                    <select class="form-control" id="race">
+                        <option>White</option>
+                        <option>Black</option>
+                        <option>Hispanic</option>
+                    </select>
+                    <label for="gender" class="display-20 font-italic">Gender: </label>
+                    <select class="form-control" id="gender">
+                        <option>Female</option>
+                        <option>Male</option>
+                    </select>
+                </div>
+            </form>
+            <button id="searchButton" type="button" class="btn btn-danger" data-toggle="modal"
+                data-target="#modalPopup">Let's See!</button>
+            <!-- End of Class Buttons -->
+
+            <!-- Start of Modal Content -->
+            <div class="modal fade" id="modalPopup" tabindex="-1" role="dialog" aria-labelledby="modalPopupLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div id="modal-body" class="modal-body">
+                            You have a percent chance of overdosing from opioids.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Modal Content -->
+    </div>
+    <!-- End of Jumbotron -->
+
+  </div>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
